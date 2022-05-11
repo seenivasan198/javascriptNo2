@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML Events</h2>
+<p id="demo2">Click the button to display the date.</p>
+
+<button onclick="this.innerHTML='its take a string'">The time is?</button>
+
+<script>
+myFu();
+function myFu(){
+
+document.getElementById('demo2').innerHTML='hello';
+}
+
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 
